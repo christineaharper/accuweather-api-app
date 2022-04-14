@@ -1,0 +1,27 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 25rem;
+}
+
+label {
+  margin-bottom: 1rem;
+}
+
+.icon {
+  position: relative;
+  top: -3.125rem;
+  width: 6.25rem;
+  border-radius: 50%;
+  margin-bottom: -3.125rem;
+}
